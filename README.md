@@ -1,8 +1,31 @@
-# Twitter-News-Agent-On-AIPC
-A news agent that crawls the web to search for information about a particular user defined keyword and creates a tweet. Uses the Qwen2.5-1.5B-Instruct LLM Model
+# AIPC Autonomous News Agent
+An autonomous, edge-based AI agent that crawls curated news sources, extracts key insights, and generates viral social media content—all running locally on Intel Core Ultra hardware.
+
+# 🌟 Overview
+This project demonstrates the power of Edge AI. Instead of relying on expensive cloud APIs, this agent utilizes the Intel NPU (Neural Processing Unit) and iGPU to handle LLM inference locally. It ensures data privacy, reduces latency, and leverages the latest in OpenVINO™ optimization.
+
+# Key Features
+Local Inference: Powered by Qwen2.5-1.5B-Instruct optimized for Intel NPU.
+
+Hardware Selection: Toggle between NPU (for power efficiency) and iGPU (for throughput).Smart Crawling: Uses DuckDuckGo News and RSS feeds to gather real-time context. Assuming you have a brand new AIPC, here is the steps to get an complete AI Agent to generate tweets on your topics of interest.
+
+Automated Scheduling: Built-in background worker to generate drafts every morning.Open Source Stack: 100% transparent tools—no proprietary "black boxes."
+
+# 🛠️ Tech StackComponentTechnology
+Model Qwen2.5-1.5B (INT4 Quantized)Inference Engine
+OpenVINO™ GenAISearch/Crawlduckduckgo-search & newspaper4kUI Framework
+Streamlit Orchestration APScheduler Social APITweepy (Twitter/X v2 API)
+
+# 🚀 Getting . Prerequisites
+An Intel Core Ultra processor (Lunar Lake, Meteor Lake, etc.).Intel NPU Drivers installed.Python 3.10 or 3.11.2. 
+Installation
+# Clone the repo
+git clone https://github.com/your-username/aipc-news-agent.git
+cd aipc-news-agent
 
 
-Assuming you have a brand new AIPC, here is the steps to get an complete AI Agent to generate tweets on your topics of interest.
+
+
 
 
 # Step 1: Install conda for Windows using Miniconda installer
