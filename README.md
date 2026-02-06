@@ -40,6 +40,9 @@ NPU for Power: If you are running on battery, keep the device on NPU. It is sign
 
 Static Shapes: For the NPU, ensure your model is compiled with static input shapes if you encounter latency issues; however, the openvino-genai pipeline handles most of this automatically in the 2025+ versions.
 
+![alt text](https://github.com/iAnish/Twitter-News-Agent-On-AIPC/blob/main/IMG_4960.JPG)
+
+
 
 
 
