@@ -14,13 +14,14 @@ Automated Scheduling: Built-in background worker to generate drafts every mornin
 # 🛠️ Tech StackComponentTechnology
 Model Qwen2.5-1.5B (INT4 Quantized)Inference Engine
 OpenVINO™ GenAISearch/Crawlduckduckgo-search & newspaper4kUI Framework
-Streamlit Orchestration APScheduler Social APITweepy (Twitter/X v2 API)
+Streamlit Orchestration AP
+Scheduler Social APITweepy (Twitter/X v2 API)
 
 # 🚀 Getting . Prerequisites
 An Intel Core Ultra processor (Lunar Lake, Meteor Lake, etc.).Intel NPU Drivers installed.Python 3.10 or 3.11.2. 
 Installation
 # Clone the repo
-git clone https://github.com/your-username/aipc-news-agent.git
+git clone https://github.com/iAnish/Twitter-News-Agent-On-AIPC.git 
 cd aipc-news-agent
 
 
